@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/league-uri",
+    "description": "Tyhp type definitions for league/uri 7.8.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "7.8.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/league-uri-impl": "~7.8.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/league-uri-impl"
+        }
+    }
+}
